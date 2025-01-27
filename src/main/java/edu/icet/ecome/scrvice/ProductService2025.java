@@ -10,7 +10,7 @@ import java.util.List;
 public class ProductService2025 implements ProductService{
 
      public List<Product> getProduct(){
-        Product prd2 = new Product("bun","abc",123.0);
+        Product prd2 = new Product("rice","abc","xyz",5000000.00);
         return Arrays.asList(prd2);
     }
 }
